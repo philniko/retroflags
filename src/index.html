@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Flag Guesser</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GUESS THE FLAG</h1>
+        </header>
+        
+        <main>
+            <div class="game-container">
+                <div class="score-container">
+                    <div class="score">
+                        <span id="correct-count">0</span> / <span id="total-count">197</span>
+                        <span class="timer" id="timer-display">00:00</span>
+                    </div>
+                </div>
+                
+                <div class="flag-area">
+                    <div class="current-flag">
+                        <img id="flag-image" alt="Flag to guess">
+                    </div>
+                    <div class="next-flag">
+                        <div class="next-flag-label">NEXT:</div>
+                        <img id="next-flag-image" class="next-flag-image" alt="Next flag">
+                    </div>
+                </div>
+                
+                <div class="guess-container">
+                    <input type="text" id="guess-input" placeholder="Enter country name..." autocomplete="off">
+                    <button id="skip-button">SKIP</button>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>A minimalist retro flag guessing game</p>
+        </footer>
+    </div>
+    
+    <script src="countries.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
