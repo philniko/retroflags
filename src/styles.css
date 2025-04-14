@@ -10,7 +10,9 @@
   border: 1px solid #fff;
   padding: 2px 8px;
   background-color: #000;
-}/* Retro Styles */
+}
+
+/* Retro Styles */
 @font-face {
   font-family: 'RetroComputer';
   src: url('https://fonts.gstatic.com/s/pressstart2p/v14/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2') format('woff2');
@@ -30,7 +32,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  padding: 20px;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .container {
@@ -38,7 +42,9 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
+  justify-content: space-between; /* This ensures the footer goes to the bottom */
+  padding: 20px;
 }
 
 header {
@@ -52,14 +58,21 @@ h1 {
   text-shadow: 2px 2px 0 #333;
 }
 
-.game-container {
+main {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center game vertically */
+}
+
+.game-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  padding: 20px;
+  gap: 10px;
+  padding: 10px;
+  width: 100%;
 }
 
 .score-container {
@@ -82,7 +95,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 200px;
+  height: 180px;
 }
 
 .next-flag {
@@ -148,12 +161,23 @@ h1 {
   color: #000;
 }
 
-
-
 footer {
-  margin-top: 140px;
+  width: 100%;
   padding: 10px 0;
   font-size: 0.75rem;
+  position: relative;
+}
+
+.github-link {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.github-link:hover {
+  transform: scale(1.2);
 }
 
 /* CRT Effect */

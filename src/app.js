@@ -218,14 +218,15 @@ document.addEventListener('DOMContentLoaded', () => {
           "United States": ["usa", "america", "united states of america"],
           "United Kingdom": ["uk", "britain", "great britain"],
           "Democratic Republic of the Congo": ["drc", "dr congo"],
-          "Ivory Coast": ["cote d'ivoire"],
+          "Ivory Coast": ["cote d'ivoire, cote divoire"],
           "Russia": ["russian federation"],
           "North Macedonia": ["macedonia"],
           "Vatican City": ["holy see", "vatican"],
           "Czech Republic": ["czechia"],
           "Eswatini": ["swaziland"],
-          "Timor-Leste": ["east timor", "timor"],
+          "Timor-Leste": ["east timor", "timor leste", "timorleste"],
           "Saint Vincent and the Grenadines": ["saint vincent", "st vincent", "st. vincent"],
+          "Congo": ["republic of the congo", "republic of congo"],
           // Add more alternates as needed
       };
       
