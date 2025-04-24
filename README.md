@@ -7,7 +7,7 @@ A retro-style flag guessing game with a nostalgic CRT screen aesthetic. Test you
 ## 🎮 Play Now
 
 You can play RetroFlags by:
-1. Visiting [RetroFlags Online](https://github.com/philniko/retroflags) (if hosted)
+1. Visiting [RetroFlags Online](https://retroflags.vercel.app/) (if hosted)
 2. Or by following the setup instructions below to run it locally
 
 ## 📋 Features
