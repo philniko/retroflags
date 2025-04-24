@@ -2,7 +2,7 @@
 
 A retro-style flag guessing game with a nostalgic CRT screen aesthetic. Test your knowledge of world flags while racing against the clock!
 
-![RetroFlags Screenshot](https://placeholder-image.com/retroflags-screenshot.jpg)
+![RetroFlags Screenshot](./screenshots/retroflags.png)
 
 ## 🎮 Play Now
 
